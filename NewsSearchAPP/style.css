@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    /* height: 80px; */
+    background-color: darkgray;
+    padding: 0 40px;
+
+}
+
+.headcontainer {
+    width: 100%;
+    height: 80px;
+    /* background-color: yellowgreen; */
+    display:flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchOps {
+    width: 50%;
+    height: 80px;
+    /* background-color: green; */
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3%;
+
+}
+
+.inp {
+    width: 30%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid green;
+    text-indent: 9px;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    transition: .4s;
+    
+
+}
+
+.inp:focus {
+    box-shadow: 0 0 6px lightblue;
+}
+
+.btn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2px;
+    color:goldenrod;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: 2s;
+    
+    
+}
+
+
+/* NEWS CSS */
+
+.news {
+    width: 100%;
+    padding: 50px;
+    
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 20px;
+}
+
+.news_app {
+    width: 40%;
+    /* height: 400px; */
+    background-color: blue;
+    display: flex;
+    box-shadow: 0 0 5px grey;
+    /* overflow: hidden; */
+    /* border-radius: 10px; */
+    box-shadow: lightgray;
+    margin-left: 50px
+    
+
+}
+
+.news_img {
+    /* height: 300px; */
+    width: 40%;
+    background-color: yellowgreen;
+    background-size:contain;
+}
+
+.news_img>img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.news_details {
+    width: 60%;
+    /* height: 300px; */
+    background-color: yellow;
+    padding: 20px;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+    
+
+}
+
+.title {
+    font-size: medium;
+}
+
+.author  {
+    
+    font-size: medium;
+    color: grey;
+    font-size: italic;
+}
+
+.content {
+    
+     font-size: small;
+    overflow: hidden;
+    color: #464646;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover {
+    background-color: darkblue;
+}
+
